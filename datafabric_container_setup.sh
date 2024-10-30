@@ -14,7 +14,7 @@ usage()
    echo "Syntax: ./datafabric_container_setup.sh [-i|--image] [-p|--publicipv4dns] [-f|--proxyfiledetails]"
    echo "options:"
    echo "-i|--image this is optional,By default it will pull image having latest tag,
-         we can also provide image which has custom tag example:maprtech/edf-seed-container:7.4.0_9.1.2"
+         we can also provide image which has custom tag example:maprtech/edf-seed-container:7.8.0_9.3.0"
    echo "-p|--publicipv4dns is the public IPv4 DNS and needed for cloud deployed seed nodes. Note that both inbound and outbound trafic on port 8443
          needs to be enabled on the cloud instance. Otherwise, the Data Fabric UI cannot be acessible"
    echo "-f|--proxyfiledetails is the location of file from where proxy  details provided by user are copied to docker container."
